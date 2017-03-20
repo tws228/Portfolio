@@ -1,0 +1,162 @@
+/* - !important - rule is always applied */
+/* - webkit - chrome; moz - firefix; o - opera; ms - ie */
+	/* - these are vendor prefixes for experimental css declarations */
+/* - box-sizing: border-box - The width and height properties (and min/max properties)   
+     includes content, padding and border, but not the margin */
+/* - box-sizing: content-box - Default. The width and height properties (and min/max properties)  
+     includes only the content. Border, padding, or margin are not included */
+/* - display:flex - have elements fill all available space */
+/* - use media queries for responsive design */
+/* - media queries - screen, print,speech - print is for printing documents  */
+	     /* - media only - for older browsers, type, and expression/condition */
+*{
+	border: 1px solid red !important; 
+}
+
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	/* -ms-box-sizing: border-box; deprecated*/
+	box-sizing: border-box;	
+}
+
+*{
+	/* font-family: "Orbitron", sans-serif; */
+}
+
+main{
+	margin-top:10%;
+}	
+
+@media only screen and (max-width:500px){
+	main{
+		margin-top:15%;
+	}
+}
+
+p{
+	padding: 10px;
+	overflow:auto;
+}
+
+@media only screen and (max-width:500px){
+	p{
+		padding: 10px;
+		overflow:auto;
+		background-color: blue;		
+	}
+}
+
+.row{
+	width: 100%;	
+	display: flex;
+	flex-wrap: wrap;	
+}
+
+.row_fixed{
+	width: 100%;	
+	display: flex;	
+	flex-wrap: wrap;	
+	position:fixed;
+	top:10px;
+	left:0;
+}
+
+.col-1{
+	width: 8.33%;
+}
+.col-2{
+	width: 16.66%; 
+} 
+	
+@media only screen and (max-width:500px){
+	.col-2{
+		display: none;
+	}
+}	
+
+.col-3{
+	width: 25%; 
+}
+.col-4{
+	width: 33.33%; 
+}
+.col-5{
+	width: 41.66%; 
+}
+.col-6{
+	width: 50%; 
+}
+.col-7{
+	width: 58.33%; 
+}
+.col-8{
+	width: 66.66%; 
+}
+.col-9{
+	width: 75%; 
+}
+.col-10{
+	width: 83.33%; 
+}
+
+@media only screen and (max-width:500px){
+	.col-10{
+		width:100%;
+	}
+}	
+
+.col-11{
+	width: 91.66%; 
+}
+.col-12{
+	width: 100%; 	
+}
+
+#logo{
+    max-width: 100%;
+    height: 100%;
+    width: auto\9; /* ie8 */
+}
+
+#banner{
+	max-width: 100%;
+    height: 100%;
+    width: auto\9; /* ie8 */
+	margin:0;
+	padding:0;
+	
+}
+
+nav{
+		width:100%;		
+		background-color:#2F2E45;
+		height:40px;
+		top:50%;
+		position:relative;
+		margin-top:-20px;	
+}
+
+#nav_menu_data{
+	padding:5px;	
+}
+
+#nav{
+	padding:2px;
+	color:white;
+}
+
+a:hover{
+	color:#2B9497;
+}
+
+#nav:hover{
+	color:#2B9497;
+}
+
+ul{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	text-align:center;
+}
