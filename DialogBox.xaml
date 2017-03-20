@@ -1,0 +1,18 @@
+﻿<Window x:Class="Memory.DialogBox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Memory"
+        mc:Ignorable="d"
+        Title="Congratulations!" Height="160" Width="250" WindowStyle="None">
+    <Grid Background="Azure">
+        <Label Content="Please Enter Your Name:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="10,40,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="150" x:Name="name"/>
+        <Label Content="Score:" HorizontalAlignment="Left" Margin="10,70,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label Content="" x:Name ="score" HorizontalAlignment="Left" Margin="50,70,0,0" VerticalAlignment="Top" Width="40"/>
+        <Button Content="OK!"  HorizontalAlignment="Left" Margin="10,100,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+
+
+    </Grid>
+</Window>

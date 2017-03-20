@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<players>
+  <player name="_ _ _" score="999" level="6"></player>
+  <player name="_ _ _" score="999" level="6"></player>
+  <player name="_ _ _" score="999" level="6"></player>
+  <player name="_ _ _" score="999" level="8"></player>
+  <player name="_ _ _" score="999" level="8"></player>
+  <player name="_ _ _" score="999" level="8"></player>
+  <player name="_ _ _" score="999" level="12"></player>
+  <player name="_ _ _" score="999" level="12"></player>
+  <player name="_ _ _" score="999" level="12"></player>
+  <player name="Dee" score="15" level="6" />
+  <player name="Trevor" score="20" level="6" />
+  <player name="" score="18" level="6" />
+</players>
